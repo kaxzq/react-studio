@@ -1,9 +1,100 @@
 /* Add styling for your page here */
 
 .App {
+  text-align: center;
+  background-color: #9cc8c6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
+.App-h1 {
+  color:#b98f66;
+  font-size:70px;
+}
+.Bakery-h1 {
+  color:#7ea2ad;
+  font-size:larger;
+}
+.Bakery-h2 {
+  color:#6966b1;
+  font-size:small;
+}
+.Bakery-h3 {
+  color:#e4786c;
+}
+.Bakery-img {
+  width: 100%;
+  border-radius: 20px;
+}
+.total-h4 {
+  color:#e4786c;
+  font-size:30px;
+  text-align: left;
+}
+.item-h5 {
+  color:#97328b;
+  font-size:larger;
+  text-align: left;
+}
+.cart-h2 {
+  color:#6966b1;
+  font-size:70px;
+  text-align: left;
+}
+
+
+.App-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0ch;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  padding:2em;
+  width: 70%;
+  float: left;
+}
+.Price-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+.Bakery-button {
+  background-color: #ef80ba;
+  color:antiquewhite;
+  border-radius: 4px;
+  height: 30px;
+  width: 120px;
+  border: none;
+}
+.Bakery-button:hover {
+  background-color: #e9258a;
+}
+
+.Bakery-button:active {
+  background-color: #af095f;
+}
+
 
 .BakeryItem {
-  
+  position: relative;
+  border-radius: 20px;
+  background-color: #C7cd75;
+  padding: 5px;
+  width: 25%;
+  height: 450px;
+
 }
